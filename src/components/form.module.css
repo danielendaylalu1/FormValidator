@@ -1,0 +1,37 @@
+form {
+  font-family: "Ubuntu", sans-serif;
+  width: 80%;
+  margin: 1rem auto;
+}
+.formControl {
+    display: flex;
+    flex-direction: column;
+}
+.formControl label{
+    color: #27374D;
+    opacity: 0.8;
+    font-weight: 400;
+}
+.formControl input{
+    padding: 0.6rem;
+    font-size: 0.9rem;
+    margin: 0.8rem 0;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: rgba(0, 0, 0, .9);
+}
+input:focus{
+    outline-color: #354f74;
+}
+form button{
+    padding: 0.9rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #27374D;
+    color: #ffff;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #354f74; 
+}
